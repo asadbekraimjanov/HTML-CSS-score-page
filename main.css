@@ -1,0 +1,179 @@
+@font-face {
+  font-family: HankenGrotesk;
+  src: url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+.card {
+  max-width: 800px;
+  min-width: 400px;
+  margin: 200px auto;
+  font-family: HankenGrotesk;
+  border: none;
+  box-shadow: 5px 5px 15px 20px rgb(239, 244, 255);
+  border-radius: 25px;
+}
+.box {
+  max-width: 400px;
+  height: 525px;
+}
+.box1 {
+  background-image: linear-gradient(to top, rgb(68, 0, 255), rgb(111, 49, 255));
+  border-radius: 25px;
+  margin-left: 10px;
+}
+.box1 p {
+  color: rgb(218, 218, 218);
+  font-weight: 600;
+  font-size: 24px;
+  opacity: 0.9;
+  text-align: center;
+  margin-top: 40px;
+}
+.circle-container {
+  display: flex;
+  justify-content: center;
+}
+.circle {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(80, 0, 185),
+    rgb(68, 0, 255)
+  );
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  align-self: center;
+}
+.circle p {
+  color: #ffffff;
+  font-size: 70px;
+  font-weight: 800;
+}
+.circle p:last-child {
+  font-size: 18px;
+  color: rgb(170, 170, 170);
+  margin-top: -30px;
+  text-align: center;
+  font-weight: 600;
+}
+.box1 .text-great{
+  color: #ffffff;
+  font-size: 36px;
+  margin-top: 18px;
+}
+.box1 .text-comment{
+  font-size: 18px;
+  width: 255px;
+  text-align: center;
+  margin: 0 auto;
+}
+.box2 p{
+  color: #112a46;
+  font-weight: 800;
+  font-size: 24px;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+.btn{
+  margin-left: 30px;
+  margin-top: 30px;
+  background-color: #1a3758;
+  color: #ffffff;
+  font-weight: 600;
+  height: 50px;
+  width: 87%;
+  border-radius: 30px;
+}
+.btn:hover{
+  background-color: #112a46;
+  color: #ffffff;
+}
+.statistic-container{
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 87%;
+}
+.statistic-container div{
+  width: 100%;
+  height: 50px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+.reaction{
+  background-color: rgb(255, 215, 215);
+  padding: 15px;
+  color: rgb(255, 58, 58);
+  font-weight: 600;
+}
+.reaction span{
+  color: #112a46;
+  font-weight: 700;
+  float: right;
+}
+.reaction span span{
+  color: rgb(143, 143, 143);
+  margin: 0;
+  margin-left:5px;
+}
+.reaction svg{
+  margin-right: 8px;
+}
+
+.memory{
+  background-color: rgb(255, 238, 215);
+  padding: 15px;
+  color: rgb(255, 163, 58);
+  font-weight: 600;
+}
+.memory span{
+  color: #112a46;
+  font-weight: 700;
+  float: right;
+}
+.memory span span{
+  color: rgb(143, 143, 143);
+  margin: 0;
+  margin-left:5px;
+}
+.memory svg{
+  margin-right: 8px;
+}
+
+.verbal{
+  background-color: rgb(215, 255, 246);
+  padding: 15px;
+  color: rgb(36, 194, 168);
+  font-weight: 600;
+}
+.verbal span{
+  color: #112a46;
+  font-weight: 700;
+  float: right;
+}
+.verbal span span{
+  color: rgb(143, 143, 143);
+  margin: 0;
+  margin-left:5px;
+}
+.verbal svg{
+  margin-right: 8px;
+}
+
+.visual{
+  background-color: rgb(215, 237, 255);
+  padding: 15px;
+  color: rgb(36, 91, 194);
+  font-weight: 600;
+}
+.visual span{
+  color: #112a46;
+  font-weight: 700;
+  float: right;
+}
+.visual span span{
+  color: rgb(143, 143, 143);
+  margin: 0;
+  margin-left:5px;
+}
+.visual svg{
+  margin-right: 8px;
+}
